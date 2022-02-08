@@ -3,6 +3,7 @@ package com.example.qrather
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import fragments.GenerateFragment
 import fragments.HelpFragment
@@ -31,6 +32,9 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+
+
 
 
     }

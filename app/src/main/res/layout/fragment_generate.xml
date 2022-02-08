@@ -9,7 +9,7 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/txt_content"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -20,7 +20,7 @@
             android:hint="Paste here" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_qr"
         android:layout_width="318dp"
         android:layout_height="445dp"
         android:layout_gravity="center_horizontal"
@@ -28,7 +28,7 @@
         android:src="@drawable/img_loading" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_generate"
 
         android:layout_width="223dp"
         android:layout_height="wrap_content"
