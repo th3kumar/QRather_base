@@ -13,6 +13,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:paddingStart="15dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="50dp"
@@ -20,7 +21,7 @@
             android:hint="Paste here" />
 
     <ImageView
-        android:id="@+id/img_qr"
+        android:id="@+id/qrcode"
         android:layout_width="318dp"
         android:layout_height="445dp"
         android:layout_gravity="center_horizontal"
