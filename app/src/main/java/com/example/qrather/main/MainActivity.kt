@@ -1,9 +1,9 @@
-package com.example.qrather
+package com.example.qrather.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.viewpager2.widget.ViewPager2
+import com.example.qrather.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import fragments.GenerateFragment
 import fragments.HelpFragment
