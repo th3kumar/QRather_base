@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QRather">
-        <activity android:name=".ui.SplashActivity"
+        <activity
+            android:name="activities.ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".qrscreen.qrrscreen"
+            android:exported="false" />
+        <activity
+            android:name="activities.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,13 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".main.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

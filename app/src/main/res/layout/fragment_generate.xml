@@ -34,9 +34,23 @@
         android:layout_width="223dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="600dp"
-        android:text="Generate"
+        android:layout_marginTop="550dp"
+        android:text="@string/generate"
         android:shadowColor="@color/teal_700"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/regular_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/darkg"
+        android:contentDescription="@string/fab_transformation_scrim_behavior"
+        app:backgroundTint="#FFFFFF"
+
+        app:srcCompat="@drawable/ic_share"
+        app:tint="@android:color/white" />
+
 
 
 </FrameLayout>
