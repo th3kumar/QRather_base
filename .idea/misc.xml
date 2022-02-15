@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/color_selector.xml" value="0.1395" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_add.xml" value="0.138" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_share.xml" value="0.1335" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/my_button_bg.xml" value="0.1" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_history.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_qrscreen.xml" value="0.20208333333333334" />
@@ -12,7 +14,7 @@
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_splash.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_generate.xml" value="0.1" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_help.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_home.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_profile.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/menu/nav_menu.xml" value="0.20208333333333334" />
       </map>

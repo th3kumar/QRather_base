@@ -20,6 +20,7 @@
             android:layout_marginRight="50dp"
             android:hint="Paste here" />
 
+
     <ImageView
         android:id="@+id/qrcode"
         android:layout_width="318dp"
@@ -30,13 +31,14 @@
 
     <Button
         android:id="@+id/btn_generate"
-
         android:layout_width="223dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="550dp"
         android:text="@string/generate"
-        android:shadowColor="@color/teal_700"/>
+
+
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/regular_share"
@@ -44,12 +46,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/darkg"
+        android:backgroundTint="@color/comp_yellow"
         android:contentDescription="@string/fab_transformation_scrim_behavior"
-        app:backgroundTint="#FFFFFF"
-
+        app:backgroundTint="@color/teal_700"
         app:srcCompat="@drawable/ic_share"
-        app:tint="@android:color/white" />
+        app:tint="@android:color/black" />
 
 
 

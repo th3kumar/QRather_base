@@ -55,16 +55,17 @@
         android:layout_marginTop="60dp"/>
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-       android:id="@+id/extended_add"
+        android:id="@+id/extended_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:layout_gravity="bottom|right"
-        android:text="ADD"
+        android:layout_margin="16dp"
+        android:text=" ADD"
+        android:backgroundTint="@color/comp_yellow"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_700"
         app:icon="@drawable/ic_add"
-        android:textColor="@color/white"
-        app:iconTint="@color/white"
-        android:backgroundTint="@color/darkg" />
+        app:iconTint="@color/black" />
 
 
 
