@@ -23,15 +23,15 @@
 
     <ImageView
         android:id="@+id/qrcode"
-        android:layout_width="318dp"
-        android:layout_height="445dp"
+        android:layout_width="288dp"
+        android:layout_height="401dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:src="@drawable/img_loading" />
 
     <Button
         android:id="@+id/btn_generate"
-        android:layout_width="223dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="550dp"
@@ -39,6 +39,8 @@
 
 
         />
+
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/regular_share"
@@ -51,6 +53,49 @@
         app:backgroundTint="@color/teal_700"
         app:srcCompat="@drawable/ic_share"
         app:tint="@android:color/black" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:focusable="true"
+        android:layout_marginBottom="96dp"
+        android:visibility="invisible"
+        android:backgroundTint="#FFEB3B"
+        app:backgroundTint="@color/teal_700"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_sharepng" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        android:backgroundTint="#FFEB3B"
+        app:backgroundTint="@color/teal_700"
+        android:focusable="true"
+        android:clickable="true"
+        android:src="@drawable/ic_mail" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:visibility="invisible"
+        android:backgroundTint="#FFEB3B"
+        app:backgroundTint="@color/teal_700"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="205dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_whatsapp" />
+
 
 
 
