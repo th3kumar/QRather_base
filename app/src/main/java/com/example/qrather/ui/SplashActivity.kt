@@ -13,6 +13,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
 import com.example.qrather.main.MainActivity
 import com.example.qrather.R
+import com.example.qrather.login_ui.WelcomeActivity
+import com.example.qrather.main.LoginAcitivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -100,7 +102,8 @@ class SplashActivity : AppCompatActivity() {
 
     private fun goToMainActivity() {
 
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, LoginAcitivity
+        ::class.java))
         finish()
     }
 

@@ -3,22 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTintMode="add"
     tools:context="fragments.GenerateFragment">
 
 
-
-
-        <EditText
-            android:id="@+id/txt_content"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:paddingStart="15dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:hint="Paste here" />
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Paste here"
+        android:paddingStart="15dp" />
 
 
     <ImageView
@@ -35,11 +34,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="550dp"
+        android:background="@drawable/gradient"
+
+
+        android:backgroundTint="@android:color/darker_gray"
         android:text="@string/generate"
-
-
-        />
-
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -59,44 +60,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:focusable="true"
-        android:layout_marginBottom="96dp"
-        android:visibility="invisible"
-        android:backgroundTint="#FFEB3B"
-        app:backgroundTint="@color/teal_700"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="96dp"
+        android:backgroundTint="#FFEB3B"
         android:clickable="true"
-        android:src="@drawable/ic_sharepng" />
+        android:focusable="true"
+        android:src="@drawable/ic_sharepng"
+        android:visibility="invisible"
+        app:backgroundTint="@color/teal_700" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/share_mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="150dp"
         android:layout_marginEnd="16dp"
-        android:visibility="invisible"
+        android:layout_marginBottom="150dp"
         android:backgroundTint="#FFEB3B"
-        app:backgroundTint="@color/teal_700"
-        android:focusable="true"
         android:clickable="true"
-        android:src="@drawable/ic_mail" />
+        android:focusable="true"
+        android:src="@drawable/ic_mail"
+        android:visibility="invisible"
+        app:backgroundTint="@color/teal_700" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/share_whatsapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:focusable="true"
-        android:visibility="invisible"
-        android:backgroundTint="#FFEB3B"
-        app:backgroundTint="@color/teal_700"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="205dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="205dp"
+        android:backgroundTint="#FFEB3B"
         android:clickable="true"
-        android:src="@drawable/ic_whatsapp" />
-
-
+        android:focusable="true"
+        android:src="@drawable/ic_whatsapp"
+        android:visibility="invisible"
+        app:backgroundTint="@color/teal_700" />
 
 
 </FrameLayout>

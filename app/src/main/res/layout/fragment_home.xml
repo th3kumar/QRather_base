@@ -11,17 +11,15 @@
       >
 
 
-
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="_QRather_"
+          android:layout_marginLeft="10dp"
           android:fontFamily="@font/font_signarita_zhai"
-          android:textSize="21sp"
+          android:text="_QRather_"
           android:textColor="@color/black"
-          android:textStyle="bold"
-          android:layout_marginLeft="10dp"/>
-
+          android:textSize="21sp"
+          android:textStyle="bold" />
 
       <ImageButton
           android:id="@+id/ic_history"
@@ -69,9 +67,15 @@
         app:icon="@drawable/ic_add"
         app:iconTint="@color/black" />
 
-
-
-
+    <View
+        android:id="@+id/ccircle"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle"
+        android:visibility="invisible" />
 
 
 </FrameLayout>

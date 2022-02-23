@@ -8,8 +8,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AccelerateDecelerateInterpolator
+import android.view.animation.AnimationUtils
 import android.widget.ImageButton
+import androidx.core.content.ContextCompat
+import androidx.core.view.isVisible
 import com.example.qrather.R
+import com.example.qrather.databinding.FragmentHomeBinding
+import com.example.qrather.ui.startAnimation
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -22,6 +28,17 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class HomeFragment : Fragment() {
+
+    private lateinit var binding: FragmentHomeBinding
+
+
+
+
+
+
+
+
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -47,6 +64,25 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
+        binding = FragmentHomeBinding.inflate(layoutInflater)
+
+
+        val animation = AnimationUtils.loadAnimation(requireActivity(),R.anim.circle_explosion_anim ).apply {
+            duration = 700
+            interpolator = AccelerateDecelerateInterpolator()
+        }
+
+        binding.extendedAdd.setOnClickListener {
+            binding.extendedAdd.isVisible = false
+            binding.ccircle.startAnimation(animation){
+
+              //display your fragment/activity
+                binding.root.setBackgroundColor(ContextCompat.getColor(requireActivity(),R.color.comp_yellow))
+            }
+        }
+
 
 
         val ic_scanner = view.findViewById<ImageButton>(R.id.ic_scanner)

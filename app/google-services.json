@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172394945719",
+    "project_id": "qrather-ae6e9",
+    "storage_bucket": "qrather-ae6e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172394945719:android:85b1677ec2a7009533c132",
+        "android_client_info": {
+          "package_name": "com.example.qrather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172394945719-fmsot4racdun6a5mm53clllf2onbuo3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG4ZhoBfhvRPNoDWeVTN_J0xJASDVMtfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172394945719-fmsot4racdun6a5mm53clllf2onbuo3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

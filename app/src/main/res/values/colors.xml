@@ -10,6 +10,10 @@
     <color name="darkg">#0C5C54</color>
     <color name="comp_yellow">#ECB30B</color>
 
+    <color name="second_color">#69f0ae</color>
+    <color name="first_color">#ffeb3b</color>
+    <color name="background_color">#fafafa</color>
+
 
 
 </resources>
