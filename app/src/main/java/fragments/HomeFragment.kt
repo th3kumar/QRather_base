@@ -2,20 +2,24 @@ package fragments
 
 import activities.HistoryActivity
 import activities.ScanActivity
+import activities.UserAdapter
+import activities.UserData
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AccelerateDecelerateInterpolator
-import android.view.animation.AnimationUtils
+import android.widget.EditText
 import android.widget.ImageButton
-import androidx.core.content.ContextCompat
-import androidx.core.view.isVisible
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.qrather.R
 import com.example.qrather.databinding.FragmentHomeBinding
-import com.example.qrather.ui.startAnimation
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+import com.google.firebase.firestore.auth.User
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,19 +35,15 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
 
-
-
-
-
-
-
+   // private lateinit var addsBtn: FloatingActionButton
+    private lateinit var recv: RecyclerView
+    private lateinit var userList: ArrayList<UserData>
+    private lateinit var userAdapter: UserAdapter
 
 
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,25 +69,18 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(layoutInflater)
 
 
-        val animation = AnimationUtils.loadAnimation(requireActivity(),R.anim.circle_explosion_anim ).apply {
-            duration = 700
-            interpolator = AccelerateDecelerateInterpolator()
-        }
+       userList = ArrayList()
 
-        binding.extendedAdd.setOnClickListener {
-            binding.extendedAdd.isVisible = false
-            binding.ccircle.startAnimation(animation){
-
-              //display your fragment/activity
-                binding.root.setBackgroundColor(ContextCompat.getColor(requireActivity(),R.color.comp_yellow))
-            }
-        }
-
-
-
+        userAdapter = UserAdapter(requireActivity(),userList)
+        val addsBtn = view.findViewById<ExtendedFloatingActionButton>(R.id.extended_add)
+        recv = view.findViewById(R.id.mRecyclerView)
         val ic_scanner = view.findViewById<ImageButton>(R.id.ic_scanner)
-
         val ic_history = view.findViewById<ImageButton>(R.id.ic_history)
+
+        addsBtn.setOnClickListener {
+            addInfo()
+             //Toast.makeText(requireActivity(), "add karte hai tanik ruk jao", Toast.LENGTH_SHORT).show()
+        }
 
         ic_scanner.setOnClickListener {
         activity?.let {
@@ -95,7 +88,6 @@ class HomeFragment : Fragment() {
             it.startActivity(intent)
         }
         }
-
         ic_history.setOnClickListener {
             activity?.let {
                 val intent = Intent(it, HistoryActivity::class.java)
@@ -104,7 +96,37 @@ class HomeFragment : Fragment() {
         }
     }
 
+    private fun addInfo () {
+        val inflter = LayoutInflater.from(requireActivity())
+        val v = inflter.inflate(R.layout.add_item,null)
 
+        recv.layoutManager = LinearLayoutManager(requireActivity())
+        recv.adapter = userAdapter
+       val addDialog = AlertDialog.Builder(requireActivity())
+        val userName = view?.findViewById<EditText>(R.id.userTitle)
+        val  userNo = view?.findViewById<EditText>(R.id.userDiscription)
+
+
+        addDialog.setView(v)
+
+        addDialog.setPositiveButton( "ADD"){
+                dialog,_->
+            val names = userName?.text.toString()
+            val number = userNo?.text.toString()
+             userList.add(UserData("$names","$number"))
+            userAdapter.notifyDataSetChanged()
+            dialog.dismiss()
+            //Toast.makeText(requireActivity(),"Successfully added",Toast.LENGTH_SHORT).show()
+
+        }
+        addDialog.setNegativeButton( "Cancel") {
+                dialog,_->
+               dialog.dismiss()
+               Toast.makeText(requireActivity(),"Cancel",Toast.LENGTH_SHORT).show()
+        }
+       addDialog.create()
+        addDialog. show()
+    }
 
     companion object {
         /**

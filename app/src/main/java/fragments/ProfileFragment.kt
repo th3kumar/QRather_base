@@ -7,7 +7,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.qrather.R
 
@@ -64,7 +66,7 @@ class ProfileFragment : Fragment() {
         val tv_user_id  = view.findViewById<TextView>(R.id.tv_user_id)
         val tv_email_id  = view.findViewById<TextView>(R.id.tv_email_id)
         val btn_logout  = view.findViewById<TextView>(R.id.btn_logout)
-
+        val ic_edit_proflile = view.findViewById<ImageView>(R.id.ic_edit_profile)
         val intent =  Intent()
         val userId  = intent.getStringExtra("user_id")
         val emailId = intent.getStringExtra("email_id")
@@ -72,7 +74,16 @@ class ProfileFragment : Fragment() {
         tv_user_id.text = "User ID :: $userId"
         tv_email_id.text = "Email ID :: $emailId"
 
+        ic_edit_proflile.setOnClickListener {
+            activity?.let {
 
+                Toast.makeText(
+                    requireActivity(),
+                    "Gallery khulega, koi mast si fotu lagaane kaa",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+        }
 
 
         btn_logout.setOnClickListener {

@@ -26,6 +26,7 @@
           android:src="@drawable/ic_baseline_history_24"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:contentDescription="@string/scanning_history"
           android:layout_gravity="center"
           android:background="@color/white"
           android:layout_marginLeft="90dp"/>
@@ -37,6 +38,7 @@
           android:src="@drawable/ic_scanner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:contentDescription="@string/scanner_button"
           android:layout_gravity="center"
           android:background="@color/white"
           android:layout_marginStart="15dp">
@@ -51,6 +53,20 @@
         android:layout_height="1dp"
         android:src="@drawable/bottom_line"
         android:layout_marginTop="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="61dp"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            tools:listitem="@layout/list_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/extended_add"
@@ -67,15 +83,7 @@
         app:icon="@drawable/ic_add"
         app:iconTint="@color/black" />
 
-    <View
-        android:id="@+id/ccircle"
-        android:layout_width="124dp"
-        android:layout_height="48dp"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="72dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/circle"
-        android:visibility="invisible" />
+
 
 
 </FrameLayout>
