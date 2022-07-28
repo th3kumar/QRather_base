@@ -7,23 +7,32 @@
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/background_btn2.xml" value="0.124" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/background_btn3.xml" value="0.129" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/background_edit.xml" value="0.129" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/bg_black_shape.xml" value="0.1445" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/bg_flash_selector.xml" value="0.1225" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/bottom_line.xml" value="0.1295" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/bottom_line_thick.xml" value="0.1295" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/circle.xml" value="0.1785" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/color_selector.xml" value="0.1395" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/dialog_background_shape.xml" value="0.1295" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/gradient.xml" value="0.1315" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/gradient_start.xml" value="0.12" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_add.xml" value="0.138" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_back.xml" value="0.129" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_edit.xml" value="0.1295" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_profile.xml" value="0.1295" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_share.xml" value="0.1335" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_star_border_white_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_text_documents.xml" value="0.1445" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/ic_whatsapp.xml" value="0.1" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/my_button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/selector_favourite.xml" value="0.1225" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/drawable/tile_background.xml" value="0.1295" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_adding.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_history.xml" value="0.19897435897435897" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_login_acitivity.xml" value="0.2125" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_qrscreen.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_scan.xml" value="0.1" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_scan.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_signup_acitivity.xml" value="0.2125" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_splash.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/activity_welcome.xml" value="0.22" />
@@ -32,8 +41,16 @@
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_help.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_home.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_profile.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/list_items.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_qr_scanner.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_scanned_history.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/fragment_task_list.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/layout_header_history.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/layout_qr_result_show.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/layout_single_item_qr_result.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/layout/list_items.xml" value="0.19897435897435897" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/menu/list_menu.xml" value="0.18703703703703703" />
         <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/menu/nav_menu.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Bagesh Kumar Ojha/QRather4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1445" />
       </map>
     </option>
   </component>

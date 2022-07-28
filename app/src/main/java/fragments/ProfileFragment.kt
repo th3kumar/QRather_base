@@ -12,7 +12,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.qrather.R
-
 import com.example.qrather.main.LoginAcitivity
 import com.google.firebase.auth.FirebaseAuth
 
@@ -28,9 +27,6 @@ private const val ARG_PARAM2 = "param2"
  */
 class ProfileFragment : Fragment() {
 
-
-
-
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -42,9 +38,6 @@ class ProfileFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
-
-
-
     }
 
     override fun onCreateView(
@@ -59,9 +52,6 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
       var preferences : SharedPreferences = requireActivity().getSharedPreferences("SHARED_PREF",Context.MODE_PRIVATE)
-
-
-
 
         val tv_user_id  = view.findViewById<TextView>(R.id.tv_user_id)
         val tv_email_id  = view.findViewById<TextView>(R.id.tv_email_id)

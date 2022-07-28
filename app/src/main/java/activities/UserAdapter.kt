@@ -8,14 +8,16 @@ import android.widget.TextView
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.qrather.R
+import fragments.HomeFragment
 
-class UserAdapter(val c: Context, val userList:ArrayList<UserData>) :RecyclerView.Adapter<UserAdapter.UserViewHolder>()
+class UserAdapter(val c : FragmentActivity, val userList :ArrayList<UserData>) :RecyclerView.Adapter<UserAdapter.UserViewHolder>()
 {
 
 
     inner class UserViewHolder(val v:View):RecyclerView.ViewHolder(v){
-        val tile_title = v.findViewById<TextView>(R.id.title_text)
-        val tile_discription = v.findViewById<TextView>(R.id.discription_text)
+        val nname = v.findViewById<TextView>(R.id.title_text)
+        val mbNum = v.findViewById<TextView>(R.id.discription_text)
+
 
     }
 
@@ -27,8 +29,8 @@ class UserAdapter(val c: Context, val userList:ArrayList<UserData>) :RecyclerVie
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val newList = userList[position]
-        holder.tile_title.text = newList.tv_Title
-        holder.tile_discription.text = newList.tv_description
+        holder.nname.text = newList.tv_Title
+        holder.mbNum.text = newList.tv_description
     }
 
     override fun getItemCount(): Int {

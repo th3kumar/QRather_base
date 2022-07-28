@@ -1,4 +1,4 @@
-package fragments
+ package fragments
 
 import android.graphics.Bitmap
 import android.graphics.Color
@@ -46,6 +46,7 @@ class GenerateFragment : Fragment() {
     private lateinit var qrcode : ImageView
     private lateinit var txt_content : EditText
     private lateinit var btn_generate : Button
+    private var qrImage  : Bitmap? = null
 
 
 

@@ -10,10 +10,21 @@
     <color name="darkg">#858888</color>
     <color name="comp_yellow">#ECB30B</color>
 
+    <color name="darkBrown">#98600D</color>
+    <color name="colorPrimary">#37EDFD</color>
+
     <color name="second_color">#69f0ae</color>
     <color name="first_color">#ffeb3b</color>
     <color name="background_color">#fafafa</color>
+    <color name="colorTransparent">#00FFFFFF</color>
 
+    <color name="gradient_start">#D9ff43</color>
+    <color name="gradient_center">#ffeb3b</color>
+    <color name="gradient_end">#ff1493</color>
+
+    <color name="colorpriorityhigh">#ff1493</color>
+    <color name="colorprioritymedium">#D9ff43</color>
+    <color name="colorprioritylow">#ffeb3b</color>
 
 
 </resources>

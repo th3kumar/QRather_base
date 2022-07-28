@@ -115,7 +115,7 @@ class LoginAcitivity : AppCompatActivity() {
         }
 
 
-        //handle click open register activity
+        //handle click open signup activity
         to_signup_activity.setOnClickListener {
             val intent = Intent(this,SignupAcitivity::class.java)
             startActivity(intent)

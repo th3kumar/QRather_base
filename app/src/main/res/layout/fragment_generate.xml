@@ -26,7 +26,7 @@
         android:layout_height="401dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
-        android:src="@drawable/img_loading" />
+        android:src="@drawable/loading_qr_image" />
 
     <Button
         android:id="@+id/btn_generate"
@@ -52,7 +52,7 @@
         android:backgroundTint="@color/comp_yellow"
         android:contentDescription="@string/fab_transformation_scrim_behavior"
         app:backgroundTint="@color/teal_700"
-        app:srcCompat="@drawable/ic_share"
+        app:srcCompat="@drawable/ic_baseline_share_24"
         app:tint="@android:color/black" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

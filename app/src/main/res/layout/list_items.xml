@@ -5,9 +5,8 @@
     android:layout_height="wrap_content"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="60dp"
-
-    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
     app:cardMaxElevation="5dp"
     android:layout_margin="5dp">
 
@@ -20,14 +19,14 @@
         app:backgroundTint="#C3E4F3">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/logo_place"
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/linearLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@drawable/ic_profile" />
+            tools:srcCompat="@drawable/linkedin_logo" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -37,7 +36,7 @@
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/logo_place"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
@@ -46,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="title"
-                android:textColor="@color/darkg"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

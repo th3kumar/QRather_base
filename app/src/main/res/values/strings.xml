@@ -5,4 +5,6 @@
     <string name="generate">Generate</string>
     <string name="scanning_history">scanning history</string>
     <string name="scanner_button">scanner button</string>
+    <string name="sort_by_type">Sort by Type</string>
+    <string name="sort_by_title">Sort by Title</string>
 </resources>

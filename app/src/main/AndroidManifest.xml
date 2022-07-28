@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.qrather">
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".db.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QRather">
+
+
+
         <activity
             android:name="activities.ScanActivity"
             android:exported="false" />
-        <activity android:name=".main.SignupAcitivity"
-            android:exported="false"/>
-        <activity android:name=".login_ui.WelcomeActivity"
-            android:exported="false"/>
-        <activity android:name=".main.LoginAcitivity"
-            android:exported="false"/>
+        <activity
+            android:name=".main.SignupAcitivity"
+            android:exported="false" />
+        <activity
+            android:name=".login_ui.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.LoginAcitivity"
+            android:exported="false" />
         <activity
             android:name=".qrscreen.qrscreen"
             android:exported="false" />
