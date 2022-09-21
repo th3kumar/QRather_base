@@ -12,10 +12,13 @@ Scan QR from Gallery, Share your contact info via QR, share images to scan from 
 •	Stores recent and favourite scans online, can scan 7 different type of codes
 
 
-##Libraries Used
+## Libraries Used
 
-[BarCodeScanner](https://github.com/dm77/barcodescanner)
-[Room Database](https://developer.android.com/training/data-storage/room)
-[Google Material Design](https://material.io/develop/android/docs/getting-started/)
-[Stetho](http://facebook.github.io/stetho/)
+. [BarCodeScanner](https://github.com/dm77/barcodescanner)
+
+. [Room Database](https://developer.android.com/training/data-storage/room)
+
+. [Google Material Design](https://material.io/develop/android/docs/getting-started/)
+
+. [Stetho](http://facebook.github.io/stetho/)
 
