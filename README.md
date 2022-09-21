@@ -24,7 +24,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-Check out the [sample](https://github.com/G00fY2/quickie/tree/develop/sample) inside this repo or visit the official [Activity Result API documentation](https://developer.android.com/training/basics/intents/result) for more information.
+Check out the [sample](https://github.com/th3kumar/QRather_base/tree/master/app/src/main/java) inside this repo or visit the official [Activity Result API documentation](https://developer.android.com/training/basics/intents/result) for more information.
 
 #### Jetpack Compose
 Use the `rememberLauncherForActivityResult()` API to register the `ScanQRCode()` ActivityResultContract together with a callback in your composable:
