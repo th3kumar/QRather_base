@@ -110,13 +110,7 @@ fun handleResult(result: QRResult) {
 :bulb: You can optionally [pass in an ActivityOptionsCompat object](https://developer.android.com/reference/androidx/activity/result/ActivityResultLauncher#launch(I,%20androidx.core.app.ActivityOptionsCompat)) when launching the ActivityResultLauncher to control the scanner launch animation.
 
 ## Screenshots / Sample App
-![image](https://user-images.githubusercontent.com/72141924/191595178-9d7122d9-2dab-4729-a702-1ca4ac4027d1.png)
-![image](https://user-images.githubusercontent.com/72141924/191595221-c45823ba-f806-44cb-96cc-a21ad798d21f.png)
-![image](https://user-images.githubusercontent.com/72141924/191595257-8fa845b7-0edb-467b-809a-732d3e9774bb.png)
-![image](https://user-images.githubusercontent.com/72141924/191595290-a4861002-1576-4b31-aa99-cb54bae4e5e8.png)
-![image](https://user-images.githubusercontent.com/72141924/191595319-a31ec5d0-6a3b-4d89-a5d3-b1361a319dc7.png)
-![image](https://user-images.githubusercontent.com/72141924/191595347-b4e18201-8391-4e8e-a04d-487f2722b935.png)
-
+![image](https://user-images.githubusercontent.com/72141924/191596442-fa216a73-2f48-4370-ac8f-16b129e5458d.png)
 
 
 
