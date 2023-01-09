@@ -3,6 +3,8 @@
 
 ![Pixel True Mockup high](https://user-images.githubusercontent.com/72141924/191039525-968e87a9-94ae-48a9-ae23-22cea8da6308.png)
 
+https://youtu.be/7GtfUSF7Mgg
+
 
 
 > **Note**: At Google I/O 2022 the [Google code scanner](https://developers.google.com/ml-kit/code-scanner) was announced. You should consider using it instead of qrather. If you want to support devices without Play Services or like to ship the latest ML Kit model - use qrather.
