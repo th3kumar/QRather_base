@@ -1,5 +1,5 @@
 # QRather_base
-**QRather** is a Quick Response (QR) Code scanning library for Android that is based on CameraX and ML Kit on-device barcode detection. It's an alternative to ZXing based libraries and written in Kotlin.
+
 
 ![Pixel True Mockup high](https://user-images.githubusercontent.com/72141924/191039525-968e87a9-94ae-48a9-ae23-22cea8da6308.png)
 
